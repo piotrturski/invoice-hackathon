@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!--This file was converted to xhtml by OpenOffice.org - see http://xml.openoffice.org/odf2xhtml for more info.-->
+<head profile="http://dublincore.org/documents/dcmi-terms/">
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+<title xml:lang="pl-PL">- no title specified</title>
+<meta name="DCTERMS.title" content="" xml:lang="pl-PL"/>
+<meta name="DCTERMS.language" content="pl-PL" scheme="DCTERMS.RFC4646"/>
+<meta name="DCTERMS.source" content="http://xml.openoffice.org/odf2xhtml"/>
+<meta name="DCTERMS.issued" content="2010-06-02T01:13:13.41" scheme="DCTERMS.W3CDTF"/>
+<meta name="DCTERMS.provenance" content="" xml:lang="pl-PL"/>
+<meta name="DCTERMS.subject" content="," xml:lang="pl-PL"/>
+<script src="vendor/angular.min.js"></script>
+<script src="vendor/angular-locale_pl-pl.js"></script>
+<script>
+
+function InvoiceCtrl($scope) {
+
+  $scope.data = {}//invoice data
+}
+
+</script>
+<style type="text/css">
+	@page {  }
+	table { border-collapse:collapse; border-spacing:0; empty-cells:show }
+	td, th { vertical-align:top; font-size:12pt;}
+	h1, h2, h3, h4, h5, h6 { clear:both }
+	ol, ul { margin:0; padding:0;}
+	li { list-style: none; margin:0; padding:0;}
+	<!-- "li span.odfLiEnd" - IE 7 issue-->
+	li span. { clear: both; line-height:0; width:0; height:0; margin:0; padding:0; }
+	span.footnodeNumber { padding-right:1em; }
+	span.annotation_style_by_filter { font-size:95%; font-family:Arial; background-color:#fff000;  margin:0; border:0; padding:0;  }
+	* { margin:0;}
+	.Footer { font-size:12pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P1 { font-size:10pt; text-align:right ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P10 { font-size:9pt; text-align:center ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P11 { font-size:8pt; text-align:center ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P12 { font-size:12pt; text-align:center ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P13 { font-size:12pt; text-align:center ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P14 { font-size:10pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P15 { font-size:10pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P16 { font-size:10pt; text-align:justify ! important; font-family:Times New Roman; writing-mode:lr-tb; font-weight:normal; }
+	.P17 { font-size:12pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P3 { font-size:12pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P4 { font-size:10pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P5 { font-size:10pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P6 { font-size:10pt; text-align:center ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P7 { font-size:10pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.P8 { font-size:10pt; text-align:center ! important; font-family:Times New Roman; writing-mode:lr-tb; font-weight:bold; }
+	.P9 { font-size:9pt; text-align:left ! important; font-family:Times New Roman; writing-mode:lr-tb; }
+	.Standard { font-size:12pt; font-family:Times New Roman; writing-mode:lr-tb; text-align:left ! important; }
+	.Tabela1 { width:17cm; writing-mode:lr-tb; }
+	.Tabela2 { width:16.736cm; writing-mode:lr-tb; }
+	.Tabela3 { width:17.011cm; writing-mode:lr-tb; }
+	.Tabela4 { width:16.997cm; writing-mode:lr-tb; }
+	.Tabela5 { width:9.689cm; writing-mode:lr-tb; }
+	.Tabela1_A1 { vertical-align:top; padding:0.097cm; border-style:none; writing-mode:lr-tb; }
+	.Tabela2_A1 { vertical-align:middle; padding:0.097cm; border-style:none; writing-mode:lr-tb; }
+	.Tabela3_A1 { vertical-align:top; padding:0.097cm; border-left-width:1px; border-left-style:solid; border-left-color:#000000; border-right-style:none; border-top-width:1px; border-top-style:solid; border-top-color:#000000; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#000000; writing-mode:lr-tb; }
+	.Tabela3_B1 { vertical-align:top; padding:0.097cm; border-width:1px; border-style:solid; border-color:#000000; writing-mode:lr-tb; }
+	.Tabela4_A1 { vertical-align:middle; padding:0.097cm; border-left-width:1px; border-left-style:solid; border-left-color:#000000; border-right-style:none; border-top-width:1px; border-top-style:solid; border-top-color:#000000; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#000000; writing-mode:lr-tb; }
+	.Tabela4_A2 { vertical-align:middle; padding:0.097cm; border-left-width:1px; border-left-style:solid; border-left-color:#000000; border-right-style:none; border-top-style:none; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#000000; writing-mode:lr-tb; }
+	.Tabela4_A3 { vertical-align:middle; padding:0.097cm; border-style:none; writing-mode:lr-tb; }
+	.Tabela4_I1 { vertical-align:middle; padding:0.097cm; border-width:1px; border-style:solid; border-color:#000000; writing-mode:lr-tb; }
+	.Tabela4_I2 { vertical-align:middle; padding:0.097cm; border-left-width:1px; border-left-style:solid; border-left-color:#000000; border-right-width:1px; border-right-style:solid; border-right-color:#000000; border-top-style:none; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#000000; writing-mode:lr-tb; }
+	.Tabela5_A1 { vertical-align:middle; padding:0.097cm; border-style:none; writing-mode:lr-tb; }
+	.Tabela1_A { width:7.117cm; }
+	.Tabela1_B { width:9.883cm; }
+	.Tabela2_A { width:6.8cm; }
+	.Tabela2_B { width:0.926cm; }
+	.Tabela2_C { width:1.351cm; }
+	.Tabela2_D { width:0.319cm; }
+	.Tabela2_E { width:5.547cm; }
+	.Tabela2_F { width:1.792cm; }
+	.Tabela3_A { width:8.5cm; }
+	.Tabela3_B { width:8.511cm; }
+	.Tabela4_A { width:0.699cm; }
+	.Tabela4_B { width:3.852cm; }
+	.Tabela4_C { width:1.337cm; }
+	.Tabela4_D { width:1.229cm; }
+	.Tabela4_E { width:1.773cm; }
+	.Tabela4_F { width:1.815cm; }
+	.Tabela4_G { width:2.06cm; }
+	.Tabela4_H { width:1.727cm; }
+	.Tabela4_I { width:2.505cm; }
+	.Tabela5_A { width:2.937cm; }
+	.Tabela5_B { width:1.907cm; }
+	.Tabela5_C { width:2.697cm; }
+	.Tabela5_D { width:2.148cm; }
+	.T1 { font-size:10pt; }
+	.T2 { font-size:10pt; }
+	.T3 { font-size:10pt; font-weight:bold; }
+	<!-- ODF styles with no properties representable as CSS -->
+	.Tabela1.1 .Tabela2.1 .Tabela3.1 .Tabela4.1 .Tabela4.2 .Tabela5.1 { }
+	</style>
+</head>
+<body ng-app ng-controller="InvoiceCtrl"
+dir="ltr" style="max-width:20.999cm;margin:2cm; margin-top:2cm; margin-bottom:2cm; margin-left:2cm; margin-right:2cm; writing-mode:lr-tb; "><table border="0" cellspacing="0" cellpadding="0" class="Tabela1"><colgroup><col width="311"/><col width="432"/></colgroup><tr class="Tabela11"><td style="text-align:left;width:7.117cm; " class="Tabela1_A1"><p class="P3"> </p></td><td style="text-align:left;width:9.883cm; " class="Tabela1_A1">
+
+<p class="P13">Faktura nr: FV {{data.issueDate | date:'M/yyyy'}}</p>
+
+<p class="P12"> </p><table border="0" cellspacing="0" cellpadding="0" class="Tabela5"><colgroup><col width="128"/><col width="83"/><col width="118"/><col width="94"/></colgroup><tr class="Tabela51"><td style="text-align:left;width:2.937cm; " class="Tabela5_A1"><p class="P6">Data wystawienia</p></td><td style="text-align:left;width:1.907cm; " class="Tabela5_A1">
+
+<p class="P6">{{data.issueDate}}</p>
+
+</td><td style="text-align:left;width:2.697cm; " class="Tabela5_A1"><p class="P6">Data sprzedaży</p></td><td style="text-align:left;width:2.148cm; " class="Tabela5_A1">
+
+<p class="P6">{{data.issueDate}}</p>
+
+</td></tr></table><p class="P12"> </p><p class="P12"> </p></td></tr></table><p class="Standard"> </p><p class="P14"> </p><table border="0" cellspacing="0" cellpadding="0" class="Tabela3"><colgroup><col width="371"/><col width="372"/></colgroup><tr class="Tabela31"><td style="text-align:left;width:8.5cm; " class="Tabela3_A1"><p class="P5">Sprzedawca</p><p class="P4"> </p><p class="P4">XXXXXXX</p><p class="P4">XXXXXXXX</p><p class="P4">XXXXXXXXXX</p><p class="P4"> </p><p class="P4">NIP: XXXXXXXXXX</p><p class="P4"> </p></td><td style="text-align:left;width:8.511cm; " class="Tabela3_B1"><p class="P5">Nabywca</p><p class="P4"> </p><p class="P7">XXXXXXXXXX</p><p class="P7">XXXXXXXXXX<span> </span></p><p class="P7">XXXXXXXX<span> </span></p><p class="P4"> </p><p class="P4">NIP: XXXXXXXXX</p><p class="P4"> </p></td></tr></table><p class="Standard"> </p><p class="P14">Sposób płatności: przelew</p><p class="Standard">
+
+<span class="T1">Termin płatności</span><span class="T1">: {{data.dueDate}}</span>
+
+</p><p class="P14">Bank: XXXXXXXXX<span> </span></p><p class="Standard"><span class="T1">numer konta</span><span class="T1">: XXXXXXXXXXXXXXXXXXXXXXXXXXX</span></p><p class="Standard"><span class="T2">swift</span><span class="T1">: </span><span class="T1">XXXXXXXX</span></p><p class="Standard"> </p><p class="Standard"> </p><p class="Standard"> </p><p class="Standard"> </p><table border="0" cellspacing="0" cellpadding="0" class="Tabela4"><colgroup><col width="31"/><col width="168"/><col width="58"/><col width="54"/><col width="77"/><col width="79"/><col width="90"/><col width="75"/><col width="109"/></colgroup><tr class="Tabela41"><td style="text-align:left;width:0.699cm; " class="Tabela4_A1">
+
+<p class="P10">Lp.</p></td><td style="text-align:left;width:3.852cm; " class="Tabela4_A1">
+<p class="P10">Nazwa</p></td><td style="text-align:left;width:1.337cm; " class="Tabela4_A1">
+<p class="P10">Jedn.</p></td><td style="text-align:left;width:1.229cm; " class="Tabela4_A1">
+<p class="P10">Ilość</p></td><td style="text-align:left;width:1.773cm; " class="Tabela4_A1">
+<p class="P10">Cena netto</p></td><td style="text-align:left;width:1.815cm; " class="Tabela4_A1">
+<p class="P10">Stawka VAT</p></td><td style="text-align:left;width:2.06cm; " class="Tabela4_A1">
+<p class="P10">Wartość netto</p></td><td style="text-align:left;width:1.727cm; " class="Tabela4_A1">
+<p class="P10">Kwota VAT</p></td><td style="text-align:left;width:2.505cm; " class="Tabela4_I1">
+<p class="P10">Wartość brutto</p></td>
+</tr>
+
+
+<tr ng-repeat="row in data.rows" class="Tabela42"><td style="text-align:left;width:0.699cm; " class="Tabela4_A2">
+
+<p class="P6">{{$index+1}}.</p></td><td style="text-align:left;width:3.852cm; " class="Tabela4_A2">
+<p class="P6">{{row.name}}</p></td><td style="text-align:left;width:1.337cm; " class="Tabela4_A2">
+<p class="P6">{{row.unit}}</p></td><td style="text-align:left;width:1.229cm; " class="Tabela4_A2">
+<p class="P6">{{row.amount}}</p></td><td style="text-align:left;width:1.773cm; " class="Tabela4_A2">
+<p class="P6">{{row.netPricePerUnit}}</p></td><td style="text-align:left;width:1.815cm; " class="Tabela4_A2">
+<p class="P6">{{row.vatRate}}%</p></td><td style="text-align:left;width:2.06cm; " class="Tabela4_A2">
+<p class="P6">{{row.netTotalValue | number:2}}</p></td><td style="text-align:left;width:1.727cm; " class="Tabela4_A2">
+<p class="P6">{{row.vat | number:2}}</p></td><td style="text-align:left;width:2.505cm; " class="Tabela4_I2">
+<p class="P6">{{row.grosTotalValue | number:2}}</p>
+
+</td></tr>
+
+
+<tr class="Tabela42"><td style="text-align:left;width:0.699cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:3.852cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:1.337cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:1.229cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:1.773cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:1.815cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:2.06cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:1.727cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:2.505cm; " class="Tabela4_A3"><p class="P11"> </p></td></tr><tr class="Tabela42"><td style="text-align:left;width:0.699cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:3.852cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.337cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.229cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.773cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.815cm; " class="Tabela4_A1">
+
+<p class="P6">23%</p></td><td style="text-align:left;width:2.06cm; " class="Tabela4_A1">
+<p class="P6">{{data.summary.net | number:2}}</p></td><td style="text-align:left;width:1.727cm; " class="Tabela4_A1">
+<p class="P6">{{data.summary.vat | number:2}}</p></td><td style="text-align:left;width:2.505cm; " class="Tabela4_I1">
+<p class="P6">{{data.summary.gross | number:2}}</p>
+
+</td></tr><tr class="Tabela42"><td style="text-align:left;width:0.699cm; " class="Tabela4_A3"><p class="P11"> </p></td><td style="text-align:left;width:3.852cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.337cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.229cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.773cm; " class="Tabela4_A3"><p class="P6"> </p></td><td style="text-align:left;width:1.815cm; " class="Tabela4_A2">
+
+<p class="P6">Razem</p></td><td style="text-align:left;width:2.06cm; " class="Tabela4_A2">
+<p class="P6">{{data.summary.net | number:2}}</p></td><td style="text-align:left;width:1.727cm; " class="Tabela4_A2">
+<p class="P6">{{data.summary.vat | number:2}}</p></td><td style="text-align:left;width:2.505cm; " class="Tabela4_I2">
+<p class="P8">{{data.summary.gross | number:2}}</p></td></tr>
+</table>
+
+<p class="Standard"> </p><p class="Standard"> </p><p class="Standard"> </p><p class="Standard"> </p><p class="P14"> </p><p class="P14"> </p>
+
+<table border="0" cellspacing="0" cellpadding="0" class="Tabela2"><colgroup><col width="247"/><col width="40"/><col width="59"/><col width="14"/><col width="292"/><col width="78"/></colgroup><tr class="Tabela21"><td style="text-align:left;width:6.8cm; " class="Tabela2_A1"><p class="P17">
+
+<span class="T1">Razem do zapłaty: </span><span class="T3">{{data.summary.gross | number:2}} PLN</span>
+
+</p></td><td style="text-align:left;width:0.926cm; " class="Tabela2_A1"><p class="P15"> </p></td><td style="text-align:left;width:1.351cm; " class="Tabela2_A1"><p class="P9">Słownie</p></td><td style="text-align:left;width:0.319cm; " class="Tabela2_A1"><p class="P9">:</p></td><td style="text-align:left;width:5.547cm; " class="Tabela2_A1">
+
+<p class="P9">{{data.inWords}}</p></td><td style="text-align:left;width:1.792cm; " class="Tabela2_A1">
+<p class="P9">PLN {{(data.summary.gross % 1)*100 | number:0}}/100</p></td></tr>
+</table>
+<p class="Standard"> </p><p class="P14"> </p><p class="P14"> </p><p class="P14"> </p><p class="P16"> </p></body></html>
