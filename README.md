@@ -1,4 +1,4 @@
-# Invoice hackaton
+# Invoice hackathon
 
 Quick and dirty, simple pdf invoice generator in haskell, phantomjs, angular, bash.
 
