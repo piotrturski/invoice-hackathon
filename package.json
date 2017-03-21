@@ -1,0 +1,12 @@
+{
+  "name": "invoice",
+  "version": "2.0",
+  "description": "invoice",
+  "repository": "",
+  "dependencies": {
+    "phantomjs": "1.9.8"
+  },
+  "devDependencies": {
+    "phantomjs": "1.9.8"
+  }
+}
